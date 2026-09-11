@@ -1,13 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+    System.out.println("hello world"); //Wypisz i zrób enter
+    System.out.println("hello world"); //sout - system out printline
+
+    System.out.print("hello world"); //coś bez robienia entera
+    System.out.println("hello world");
+    System.out.println("w taki sposób robimy znaki specjalne");
+
+    System.out.println("\ttabulacja");
+    System.out.println("\nenter");
+    System.out.println("to jest jak na maszynie/rdo pisania");
+    System.out.println("\"cudzysłów\"");
+    System.out.println("\'apostrof\'");
+    System.out.println("backslash: \\");
 }
